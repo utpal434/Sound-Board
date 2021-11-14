@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(99, 53, 145, 0.781);
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.box {
+  background-color: rgba(99, 53, 145, 0.986);
+  color: #fff;
+  font-size: 25px;
+  border-radius: 8px;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
